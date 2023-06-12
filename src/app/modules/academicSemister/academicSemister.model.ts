@@ -1,7 +1,7 @@
 import { Schema, model } from 'mongoose';
 import {
   AcaemicSemisterModel,
-  IAcdemicSemister,
+  IAcademicSemister,
 } from './academicSemister.interface';
 import {
   academicSeimterMonths,
@@ -9,15 +9,16 @@ import {
   academicSemisterTitle,
 } from './academicSemister.constant';
 import ApiError from '../../../errors/ApiError';
+import httpStatus from 'http-status';
 
-const AcademicSemisterSchema = new Schema<IAcdemicSemister>({
+const AcademicSemisterSchema = new Schema<IAcademicSemister>({
   title: {
     type: String,
     required: true,
     enum: academicSemisterTitle,
   },
   year: {
-    type: Number,
+    type: String,
     required: true,
   },
   code: {
@@ -44,13 +45,12 @@ AcademicSemisterSchema.pre('save', async function (next) {
   });
 
   if (isExits) {
-    throw new ApiError(409, 'This semester Already exits');
-  } else {
-    next();
+    throw new ApiError(httpStatus.CONFLICT, 'This semester Already exits');
   }
+  next();
 });
 
-export const AcademicSemister = model<IAcdemicSemister, AcaemicSemisterModel>(
+export const AcademicSemister = model<IAcademicSemister, AcaemicSemisterModel>(
   'AcademicSemister',
   AcademicSemisterSchema
 );

@@ -1,16 +1,16 @@
-import { createLogger, format, transports } from 'winston'
-import path from 'path'
-import process from 'process'
-import DailyRotateFile from 'winston-daily-rotate-file'
+import { createLogger, format, transports } from 'winston';
+import path from 'path';
+import process from 'process';
+import DailyRotateFile from 'winston-daily-rotate-file';
 
-const { combine, timestamp, label, printf, prettyPrint } = format
+const { combine, timestamp, label, printf, prettyPrint } = format;
 
 // custom formate
 const myFormat = printf(({ level, message, label, timestamp }) => {
-  const date = new Date(timestamp)
+  const date = new Date(timestamp);
 
-  return `Date: ${date}  [${label}] ${level}: ${message}`
-})
+  return `Date: ${date}  [${label}] ${level}: ${message}`;
+});
 
 const logger = createLogger({
   level: 'info',
@@ -41,7 +41,7 @@ const logger = createLogger({
     myFormat,
     prettyPrint()
   ),
-})
+});
 
 const errorLogger = createLogger({
   level: 'error',
@@ -63,5 +63,5 @@ const errorLogger = createLogger({
     }),
     new transports.Console(),
   ],
-})
-export { logger, errorLogger }
+});
+export { logger, errorLogger };
