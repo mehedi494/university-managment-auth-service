@@ -35,4 +35,10 @@ export const academicSemisterTitleMaper = {
   Summer: '02',
   Fall: '03',
 };
-// 'Autumn' | 'Summer' | 'Fall'
+export const academicSearchableFields = ['title', 'code', 'year'];
+export const academicSemisterGFilterbableFields = [
+  'searchTerm',
+  'title',
+  'code',
+  'year',
+];

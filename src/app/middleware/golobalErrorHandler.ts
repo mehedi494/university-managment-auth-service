@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-/* eslint-disable no-console */
+
 import config from '../../config';
 import { ErrorRequestHandler } from 'express';
 import { IGenericErrorMessage } from '../../interfaces/error';
@@ -8,8 +8,11 @@ import ApiError from '../../errors/ApiError';
 import { errorLogger } from '../../shared/logger';
 import { ZodError } from 'zod';
 import handleZodError from '../../errors/handleZodError';
+import handleCastError from '../../errors/handleCastError';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
+  // eslint-disable-next-line no-console
   config.env === 'development' ? console.log(error) : errorLogger.error(error);
 
   let statusCode = 500;
@@ -33,11 +36,16 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     errorMessages = error?.message
       ? [
           {
-            path: '',
+            path: error?.name,
             message: error?.message,
           },
         ]
       : [];
+  } else if (error?.name === 'CastError') {
+    const simplefiedError = handleCastError(error);
+    statusCode = simplefiedError.statusCode;
+    message = simplefiedError.message;
+    errorMessages = simplefiedError.errorMessages;
   } else if (error instanceof Error) {
     message = error?.message;
     errorMessages = error?.message
@@ -56,7 +64,6 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     errorMessages,
     stack: config.env !== 'production' ? error?.stack : 'internal Server Error',
   });
-  next();
 };
 
 export default globalErrorHandler;

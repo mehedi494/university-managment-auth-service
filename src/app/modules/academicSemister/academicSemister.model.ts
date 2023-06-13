@@ -11,32 +11,38 @@ import {
 import ApiError from '../../../errors/ApiError';
 import httpStatus from 'http-status';
 
-const AcademicSemisterSchema = new Schema<IAcademicSemister>({
-  title: {
-    type: String,
-    required: true,
-    enum: academicSemisterTitle,
+const AcademicSemisterSchema = new Schema<IAcademicSemister>(
+  {
+    title: {
+      type: String,
+      required: true,
+      enum: academicSemisterTitle,
+    },
+    year: {
+      type: String,
+      required: true,
+    },
+    code: {
+      type: String,
+      required: true,
+      enum: academicSemisterCode,
+    },
+    startMonth: {
+      type: String,
+      required: true,
+      enum: academicSeimterMonths,
+    },
+    endMonth: {
+      type: String,
+      required: true,
+      enum: academicSeimterMonths,
+    },
   },
-  year: {
-    type: String,
-    required: true,
-  },
-  code: {
-    type: String,
-    required: true,
-    enum: academicSemisterCode,
-  },
-  startMonth: {
-    type: String,
-    required: true,
-    enum: academicSeimterMonths,
-  },
-  endMonth: {
-    type: String,
-    required: true,
-    enum: academicSeimterMonths,
-  },
-});
+  {
+    timestamps: true,
+    toJSON: { virtuals: true },
+  }
+);
 
 AcademicSemisterSchema.pre('save', async function (next) {
   const isExits = await AcademicSemister.findOne({
