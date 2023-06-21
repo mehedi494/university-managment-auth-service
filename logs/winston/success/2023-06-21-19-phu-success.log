@@ -1,0 +1,84 @@
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:15:02.682Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:15:10.327Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:15:25.529Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:16:02.867Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:16:30.342Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:17:41.058Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:17:56.334Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:32:02.682Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:32:15.964Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:33:54.230Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:36:26.508Z'
+}
+{
+  message: '🔋  Database connected Successfully and App listening on port 5000',
+  level: 'info',
+  service: 'auth-service',
+  label: 'info',
+  timestamp: '2023-06-21T13:37:05.626Z'
+}

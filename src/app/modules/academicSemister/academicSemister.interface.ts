@@ -1,5 +1,3 @@
-import { Model } from 'mongoose';
-
 export type IAcademicSemisterMonths =
   | 'January'
   | 'February'
@@ -29,4 +27,4 @@ export type IAcademicSemister = {
 export type IAcademicSemisterFilters = {
   searchTerm?: string;
 };
-export type AcaemicSemisterModel = Model<IAcademicSemister>;
+// export type AcaemicSemisterModel = Model<IAcademicSemister>;

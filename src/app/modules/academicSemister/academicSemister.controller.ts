@@ -4,7 +4,7 @@ import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import catchAsync from '../../../shared/catchAsync';
 import pick from '../../../shared/pick';
-import { paginationField } from '../../../constanse/paginationField';
+import { paginationFields } from '../../../constants/pagination';
 import { IAcademicSemister } from './academicSemister.interface';
 import { academicSemisterGFilterbableFields } from './academicSemister.constant';
 
@@ -24,7 +24,7 @@ const createSemister = catchAsync(async (req: Request, res: Response) => {
 
 const getAllSemester = catchAsync(async (req: Request, res: Response) => {
   const filter = pick(req.query, academicSemisterGFilterbableFields);
-  const paginationOptions = pick(req.query, paginationField);
+  const paginationOptions = pick(req.query, paginationFields);
 
   const result = await academicSemisterService.getAllSemesters(
     filter,

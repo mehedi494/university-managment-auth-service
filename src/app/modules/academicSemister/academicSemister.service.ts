@@ -12,7 +12,7 @@ import {
 } from './academicSemister.constant';
 import { IPaginationOptions } from '../../../interfaces/paginationOptions';
 import { IGenericResponse } from '../../../interfaces/common';
-import { paginationHelper } from '../../../helper/paginationHelper';
+import { paginationHelpers } from '../../../helper/paginationHelper';
 import { SortOrder } from 'mongoose';
 
 const createSemister = async (
@@ -76,7 +76,7 @@ const getAllSemesters = async (
     },
   ]; */
   const { page, skip, limit, sortBy, sortOrder } =
-    paginationHelper.calculatePagination(paginationOptions);
+    paginationHelpers.calculatePagination(paginationOptions);
 
   const sortCondition: { [key: string]: SortOrder } = {};
   if (sortBy && sortOrder) {

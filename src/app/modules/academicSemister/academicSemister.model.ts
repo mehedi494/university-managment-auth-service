@@ -1,8 +1,5 @@
 import { Schema, model } from 'mongoose';
-import {
-  AcaemicSemisterModel,
-  IAcademicSemister,
-} from './academicSemister.interface';
+import { IAcademicSemister } from './academicSemister.interface';
 import {
   academicSeimterMonths,
   academicSemisterCode,
@@ -56,7 +53,7 @@ AcademicSemisterSchema.pre('save', async function (next) {
   next();
 });
 
-export const AcademicSemister = model<IAcademicSemister, AcaemicSemisterModel>(
+export const AcademicSemister = model<IAcademicSemister>(
   'AcademicSemister',
   AcademicSemisterSchema
 );

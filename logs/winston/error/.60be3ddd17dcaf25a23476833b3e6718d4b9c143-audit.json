@@ -129,6 +129,31 @@
             "date": 1686690172780,
             "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\error\\2023-06-14-03-phu-error.log",
             "hash": "1607f45f652205ced45b22af11d135f0d3c5d3b5f43772b55d5b82a114426710"
+        },
+        {
+            "date": 1687345138331,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\error\\2023-06-21-16-phu-error.log",
+            "hash": "0b0296fce30377af1906bfda1591ddac1024c5a023b5b548e3e315b0c366b483"
+        },
+        {
+            "date": 1687345203373,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\error\\2023-06-21-17-phu-error.log",
+            "hash": "f8e81e3e8c50d23cce28790d969ea7deff208caf4e436e43512074c7f9e7bb30"
+        },
+        {
+            "date": 1687348915674,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\error\\2023-06-21-18-phu-error.log",
+            "hash": "fefd8d69616e8dceb686b87bbbf24e13b69f3e51bff368a5fcea45846f51621d"
+        },
+        {
+            "date": 1687353299172,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\error\\2023-06-21-19-phu-error.log",
+            "hash": "2bb9bc17daf4ab5de12540d87f306082e43dc60c9a173da887f98df649055b82"
+        },
+        {
+            "date": 1687369225490,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\error\\2023-06-21-23-phu-error.log",
+            "hash": "813e687d9d7e0f2951a03b69ced7b1865a0a94c81379fed06593a67eabf6ecdb"
         }
     ],
     "hashType": "sha256"

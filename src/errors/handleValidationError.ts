@@ -5,6 +5,8 @@ import { IGenericErrorMessage } from '../interfaces/error';
 const handleValidationError = (
   error: mongoose.Error.ValidationError
 ): IGenericErrorResponse => {
+  // eslint-disable-next-line no-console
+  console.log('from handleError', error);
   const errors: IGenericErrorMessage[] = Object.values(error.errors).map(
     (el: mongoose.Error.ValidatorError | mongoose.Error.CastError) => {
       return {
