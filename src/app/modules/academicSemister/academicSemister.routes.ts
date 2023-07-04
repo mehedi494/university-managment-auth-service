@@ -2,22 +2,22 @@ import express from 'express';
 import { academicSemisterValidation } from './academicSemister.validation';
 
 import validateRequest from './../../middleware/validateRequest';
-import { academicSemisterController } from './academicSemister.controller';
+import { AcademicSemisterController } from './academicSemister.controller';
 const router = express.Router();
 
 router.post(
   '/create-semister',
   validateRequest(academicSemisterValidation.createAcademicSemisterZodSchema),
-  academicSemisterController.createSemister
+  AcademicSemisterController.createSemister
 );
 
-router.get('/:id', academicSemisterController.getSemesterById);
-router.get('/get-all', academicSemisterController.getAllSemester);
+router.get('/:id', AcademicSemisterController.getSemesterById);
+router.get('/get-all', AcademicSemisterController.getAllSemester);
 router.patch(
   '/:id',
   validateRequest(academicSemisterValidation.updateAcademicSemestrerZodSchema),
-  academicSemisterController.updateSemester
+  AcademicSemisterController.updateSemester
 );
-router.delete('/:id', academicSemisterController.deleteSemester);
+router.delete('/:id', AcademicSemisterController.deleteSemester);
 
 export const AcademicSemisterRoutes = router;

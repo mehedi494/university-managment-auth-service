@@ -129,7 +129,7 @@ const deleteSemester = async (
   return result;
 };
 
-export const academicSemisterService = {
+export const AcademicSemisterService = {
   createSemister,
   getAllSemesters,
   getSemisterById,

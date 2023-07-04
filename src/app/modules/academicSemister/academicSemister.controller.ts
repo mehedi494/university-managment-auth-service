@@ -1,16 +1,16 @@
 import { Request, Response } from 'express';
-import { academicSemisterService } from './academicSemister.service';
+import { AcademicSemisterService } from './academicSemister.service';
 import sendResponse from '../../../shared/sendResponse';
 import httpStatus from 'http-status';
 import catchAsync from '../../../shared/catchAsync';
 import pick from '../../../shared/pick';
 import { paginationFields } from '../../../constants/pagination';
 import { IAcademicSemister } from './academicSemister.interface';
-import { academicSemisterGFilterbableFields } from './academicSemister.constant';
+import { academicSemisterFilterbableFields } from './academicSemister.constant';
 
 const createSemister = catchAsync(async (req: Request, res: Response) => {
   const { ...academicSemesterData } = req.body;
-  const result = await academicSemisterService.createSemister(
+  const result = await AcademicSemisterService.createSemister(
     academicSemesterData
   );
 
@@ -23,10 +23,10 @@ const createSemister = catchAsync(async (req: Request, res: Response) => {
 });
 
 const getAllSemester = catchAsync(async (req: Request, res: Response) => {
-  const filter = pick(req.query, academicSemisterGFilterbableFields);
+  const filter = pick(req.query, academicSemisterFilterbableFields);
   const paginationOptions = pick(req.query, paginationFields);
 
-  const result = await academicSemisterService.getAllSemesters(
+  const result = await AcademicSemisterService.getAllSemesters(
     filter,
     paginationOptions
   );
@@ -41,7 +41,7 @@ const getAllSemester = catchAsync(async (req: Request, res: Response) => {
 });
 const getSemesterById = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
-  const result = await academicSemisterService.getSemisterById(id);
+  const result = await AcademicSemisterService.getSemisterById(id);
 
   sendResponse<IAcademicSemister>(res, {
     success: true,
@@ -54,7 +54,7 @@ const getSemesterById = catchAsync(async (req: Request, res: Response) => {
 const updateSemester = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
   const updateData = req.body;
-  const result = await academicSemisterService.updateSemester(id, updateData);
+  const result = await AcademicSemisterService.updateSemester(id, updateData);
 
   sendResponse<IAcademicSemister>(res, {
     success: true,
@@ -66,7 +66,7 @@ const updateSemester = catchAsync(async (req: Request, res: Response) => {
 const deleteSemester = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
 
-  const result = await academicSemisterService.deleteSemester(id);
+  const result = await AcademicSemisterService.deleteSemester(id);
 
   sendResponse<IAcademicSemister>(res, {
     success: true,
@@ -76,7 +76,7 @@ const deleteSemester = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-export const academicSemisterController = {
+export const AcademicSemisterController = {
   createSemister,
   getAllSemester,
   getSemesterById,

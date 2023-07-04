@@ -6,131 +6,6 @@
     "auditLog": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\.a544230fb5694ec5cdab8c41815e721cc2e00f21-audit.json",
     "files": [
         {
-            "date": 1686248560199,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-09-00-phu-success.log",
-            "hash": "beb6a887d3cf9d487d43b75ed9510c0d73bd2ad09ac29e4b538bf19cd792ea71"
-        },
-        {
-            "date": 1686251469178,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-09-01-phu-success.log",
-            "hash": "e391aa687dd01122d5b99c5446bf3923508022098492339f7d8a3044241ce4a8"
-        },
-        {
-            "date": 1686254426372,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-09-02-phu-success.log",
-            "hash": "6e01bdd8cac6e8d6e7a99d84e8fc9217582b81ee52153849c5614956b48dfe83"
-        },
-        {
-            "date": 1686399576768,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-10-18-phu-success.log",
-            "hash": "cd96eb79f9dd36b547c7066863746f0cfbf907c95742c721ffc5797535bb9d99"
-        },
-        {
-            "date": 1686402387624,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-10-19-phu-success.log",
-            "hash": "12ca42bcf04ab73b5e9310198a74b41bbea24c054387969572ec2066e628f001"
-        },
-        {
-            "date": 1686405820107,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-10-20-phu-success.log",
-            "hash": "552c59e6c8990cb66379e65a8242c5c0d15ca0edc87a2b4bed68eaae2edcd1d1"
-        },
-        {
-            "date": 1686486384017,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-11-18-phu-success.log",
-            "hash": "c3585bdcb0e686907c9cba3e7cf7abc9ede0b9af8ae971a559aaf5915982945b"
-        },
-        {
-            "date": 1686496947145,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-11-21-phu-success.log",
-            "hash": "e5968807452ab320c6a5f93e7540db32f89f933ee66cbbd1912148672e6d1efb"
-        },
-        {
-            "date": 1686499224311,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-11-22-phu-success.log",
-            "hash": "742ab7867f9dcf37db9915701580a003f374af0b6068dc68eedb60d2721c22ec"
-        },
-        {
-            "date": 1686515993818,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-12-02-phu-success.log",
-            "hash": "2da3283d303163fdb5686a1d3464f0893203c9824f45e8df49b6edcba17e22fc"
-        },
-        {
-            "date": 1686517360145,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-12-03-phu-success.log",
-            "hash": "2df7740ba0cc5c7f0581b78d52ab2c6c1259b95a756408ac81b3d80bb3c99d98"
-        },
-        {
-            "date": 1686521046172,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-12-04-phu-success.log",
-            "hash": "848b7a967077840367148831d076ab725f081d728e0a53f2532db505a084020d"
-        },
-        {
-            "date": 1686524403685,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-12-05-phu-success.log",
-            "hash": "f4b7f60c89d3cfd8020b14ec721e4c8ff55a172246b5ed37a6b46f80eb5862ca"
-        },
-        {
-            "date": 1686600772369,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-02-phu-success.log",
-            "hash": "d7a8b97ab2ba414f87bf4058a73e435230c6cef2f3959e5e4441679368790d6d"
-        },
-        {
-            "date": 1686603655105,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-03-phu-success.log",
-            "hash": "129da463c7ee1c62425e85221d955d824ca4a52fc4a7a5c2a3aedaf25f2b3bc5"
-        },
-        {
-            "date": 1686607205860,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-04-phu-success.log",
-            "hash": "4fe6dd1c5c71939bd1141322be14db570fa40ab448ce886d52e0dffd135f8c8b"
-        },
-        {
-            "date": 1686656948479,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-17-phu-success.log",
-            "hash": "0a00e9e5ff57fa3ea941eec195d739fb6f6efae973f526358a9efb1e39cfc670"
-        },
-        {
-            "date": 1686658056613,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-18-phu-success.log",
-            "hash": "5d498cc9bd637c86b2e261945bad9d2b40669fcd0f58611d0fa6e886b5519693"
-        },
-        {
-            "date": 1686670873903,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-21-phu-success.log",
-            "hash": "4f2b66ec173b908adb87da959d1b14a7672bd100817648a8a47e85f8209bcfd7"
-        },
-        {
-            "date": 1686672012266,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-22-phu-success.log",
-            "hash": "dd9f55ce8bae04db2c04345494712a820afebff3e7eeec23b995049bcf995a55"
-        },
-        {
-            "date": 1686675610574,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-13-23-phu-success.log",
-            "hash": "64610f27072868cc34cca0db2d41ba2230b2e4295e79242b3265d0ba3933dc55"
-        },
-        {
-            "date": 1686681263841,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-14-00-phu-success.log",
-            "hash": "3659224e0110b15579cd673297057fcc9228ae624a3e5222a1aeecfff6fa665a"
-        },
-        {
-            "date": 1686682804393,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-14-01-phu-success.log",
-            "hash": "a2b53e836073b486eb84f81390826d2c1831d4832be330d49882caaf221eca53"
-        },
-        {
-            "date": 1686686542732,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-14-02-phu-success.log",
-            "hash": "6fa65962f478d1313eba9b8b398aa22c3d951a868ff18e7aae8a2f9459316cc5"
-        },
-        {
-            "date": 1686690172749,
-            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-14-03-phu-success.log",
-            "hash": "b08a7ce90b3fb5b7ce225046e6d348cbdff980f3827a318d2ca7f85d43298498"
-        },
-        {
             "date": 1687345138281,
             "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-21-16-phu-success.log",
             "hash": "4887ef153694ca439b89eff5200e6649d2472ced2fa038b48003bef44a481049"
@@ -154,6 +29,106 @@
             "date": 1687369225469,
             "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-21-23-phu-success.log",
             "hash": "eaf7df08da8da61df9bea5afb1eb610a418150e9d69fcd7dfbf56bc7b6f9ce0c"
+        },
+        {
+            "date": 1687370733138,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-22-00-phu-success.log",
+            "hash": "7b0da6c6a80deae6487262d09c56c19dd99707440bbe030fde462d290fbdc113"
+        },
+        {
+            "date": 1687381291329,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-22-03-phu-success.log",
+            "hash": "da1986cb702b644896f83f118bbd2f2b951cdbd8c17858ab98a5294e950ac911"
+        },
+        {
+            "date": 1687388011324,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-22-04-phu-success.log",
+            "hash": "23d9e61f9c0ec953552445a758e72afd1f14f0f060b2e34a6eb37571e527c7fe"
+        },
+        {
+            "date": 1687389455058,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-22-05-phu-success.log",
+            "hash": "052061a7dce3a936897a676450a0bbef6e2115d21fbc8fc48399fd12e1bca22d"
+        },
+        {
+            "date": 1687864525808,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-27-17-phu-success.log",
+            "hash": "683a4cbbe7db7e77ac85dc897f86ade6f4dda075b78a6e09c0671c78c5a452a5"
+        },
+        {
+            "date": 1687868578081,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-27-18-phu-success.log",
+            "hash": "868976e1ddab7a619771452b179b561d709a7a13764a7d9ed3f1807613725475"
+        },
+        {
+            "date": 1687870847855,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-27-19-phu-success.log",
+            "hash": "90d844e5a5ce40e62ba58b3fca9201919a4e811aec7f93434c143241c6881ca0"
+        },
+        {
+            "date": 1687874427744,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-27-20-phu-success.log",
+            "hash": "5ae8cb898375708f7f58b2a21263c9b8dc7d66d2aae89025a2a55f1693e61476"
+        },
+        {
+            "date": 1687878031762,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-27-21-phu-success.log",
+            "hash": "43db7a0d74fcb3645957db04d9f3c996c7542030fe6a0946dc5ccf9f2cc4dd99"
+        },
+        {
+            "date": 1687881898907,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-27-22-phu-success.log",
+            "hash": "b265736c8af2dff276787b63eef3d0de69642b4f1068f5af4f1cef8f822b2dc5"
+        },
+        {
+            "date": 1687893469037,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-28-01-phu-success.log",
+            "hash": "afa75ce7d6eecc2e2be0224beffa2a7f533ea9ac9949dd7aaa3eff88b4297457"
+        },
+        {
+            "date": 1688047963682,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-29-20-phu-success.log",
+            "hash": "6c13ece12cc110afd28b30912c1c4bd386720b2f02f02eae5c599ce918c855c7"
+        },
+        {
+            "date": 1688066418295,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-30-01-phu-success.log",
+            "hash": "3907612cc3fb7677fc8e9e811991daad74ef30d0b72af707f742ef12cc43f1da"
+        },
+        {
+            "date": 1688070653978,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-30-02-phu-success.log",
+            "hash": "1e6ab156c4fa1e6eff379f564a7f3b29ca0f934f9cd4d038205b44e41f6a60ca"
+        },
+        {
+            "date": 1688072403899,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-30-03-phu-success.log",
+            "hash": "6f2749f7ea352615b03184fb959e3484309e091cef0bd1bbb6c44ad0fb1d2fbb"
+        },
+        {
+            "date": 1688076072175,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-30-04-phu-success.log",
+            "hash": "774a145e0c02255f207d4aa6420edca4302e9443af674302340078ce9586b05a"
+        },
+        {
+            "date": 1688086645500,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-30-06-phu-success.log",
+            "hash": "0097e71ca85e317c16ef75df64626947191c76fe59b8bbb0eb06dd6293cc02a1"
+        },
+        {
+            "date": 1688089014665,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-30-07-phu-success.log",
+            "hash": "d199e8119f04c0449c29e860b8ab111600d4373daa60dd80e95c77977d293521"
+        },
+        {
+            "date": 1688131306846,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-06-30-19-phu-success.log",
+            "hash": "f82b038d536fdfc069191abfb9186ceede240e2bed0942a1af2d4536984e7d1e"
+        },
+        {
+            "date": 1688310977677,
+            "name": "F:\\WEB DEV\\#LEVEL-2.0\\3-backend-brainic\\logs\\winston\\success\\2023-07-02-21-phu-success.log",
+            "hash": "988e6db943274315e3261897991fb6a0850a949f1bc1a8e8cebd3e1c1c7e28ea"
         }
     ],
     "hashType": "sha256"
