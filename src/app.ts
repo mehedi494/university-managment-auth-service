@@ -3,6 +3,7 @@ import cors from 'cors';
 import globalErrorHandler from './app/middleware/golobalErrorHandler';
 import { routers } from './app/routes';
 import httpStatus from 'http-status';
+import cookieParser from 'cookie-parser';
 
 // import { error } from 'winston'
 // import ApiError from './errors/ApiError'
@@ -13,6 +14,7 @@ const app: Application = express();
 app.use(cors());
 
 // parser
+app.use(cookieParser());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 

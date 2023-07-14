@@ -6,7 +6,7 @@ import { UserValidation } from './User.validation';
 
 router.post(
   '/create-student',
-  validateRequest(UserValidation.createUserZodSchema),
+  validateRequest(UserValidation.createStudentZodSchema),
   UserController.createStudent
 );
 
