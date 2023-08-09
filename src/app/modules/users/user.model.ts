@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-this-alias */
 import { Schema, model } from 'mongoose';
-import { IUser, IStaticsMethods /* UserModel */ } from './user.interface';
+import { IUser, IStaticsMethods } from './user.interface';
 import bcrypt from 'bcrypt';
 import config from '../../../config';
 
@@ -26,6 +26,9 @@ const userSchema = new Schema<IUser, IStaticsMethods>(
     needsPasswordChange: {
       type: Boolean,
       default: true,
+    },
+    passwordChangedAt: {
+      type: Date,
     },
     student: {
       type: Schema.Types.ObjectId,
@@ -92,8 +95,10 @@ userSchema.pre('save', async function (next) {
     this.password,
     Number(config.bcrypt_salt_round)
   );
-  // eslint-disable-next-line no-console
-  console.log(user);
+  if (!user.needsPasswordChange) {
+    this.passwordChangedAt = new Date();
+  }
+
   next();
 });
 

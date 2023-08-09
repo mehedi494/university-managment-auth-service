@@ -3,19 +3,12 @@
   level: 'info',
   service: 'auth-service',
   label: 'info',
-  timestamp: '2023-07-04T18:47:47.937Z'
+  timestamp: '2023-08-09T11:57:18.788Z'
 }
 {
   message: '🔋  Database connected Successfully and App listening on port 5000',
   level: 'info',
   service: 'auth-service',
   label: 'info',
-  timestamp: '2023-07-04T18:48:40.771Z'
-}
-{
-  message: '🔋  Database connected Successfully and App listening on port 5000',
-  level: 'info',
-  service: 'auth-service',
-  label: 'info',
-  timestamp: '2023-07-04T18:48:53.269Z'
+  timestamp: '2023-08-09T11:57:35.532Z'
 }
